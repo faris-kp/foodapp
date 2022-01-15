@@ -362,10 +362,10 @@ iframe {
   line-height: 1.2;
 }
 
-.btn-hide-validate {
+ .btn-hide-validate {
   font-family: Material-Design-Iconic-Font;
   font-size: 15px;
-  color: #fa4251;
+  color: #fa4251;              
   cursor: pointer;
   display: -webkit-box;
   display: -webkit-flex;
@@ -378,13 +378,13 @@ iframe {
   height: 62px;
   top: 0px;
   right: 23px;
-}
+} 
 
-.rs1-alert-validate.alert-validate::before {
+ .rs1-alert-validate.alert-validate::before {
   background-color: #fff;
 }
 
-.true-validate::after {
+/* .true-validate::after {
   content: "\f269";
   font-family: Material-Design-Iconic-Font;
   font-size: 15px;
@@ -400,7 +400,7 @@ iframe {
   height: 62px;
   top: 0px;
   right: 23px;
-}
+}  */
 
 
 

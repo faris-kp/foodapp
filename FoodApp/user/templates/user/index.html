@@ -29,8 +29,8 @@
                   <ul class="main-nav js--main-nav"> 
                   <li><a href="#">HOME</a></li>
                   <li><a href="#">contact us</a></li>
-                  <li><a href="#">sign in</a></li>
-                  <li><a href="#">Sign  up</a></li>
+                  <li><a href="{% url 'login' %}">sign in</a></li>
+                  <li><a href="{% url 'signup' %}">Sign  up</a></li>
                   </ul>
                   <a class="mobile-nav-icon js--nav-icon"><i class="ion-navicon-round"></i></a>
               </div>
@@ -47,7 +47,7 @@
        </header>
     <!-- section start  -->
           
-          <section class="section-features " id="features">
+          <section class="section-features  js--section-features" id="features">
               <div class="row">
                  
                   <!-- <h2>Get food fast &mdash; not fast food </h2> -->

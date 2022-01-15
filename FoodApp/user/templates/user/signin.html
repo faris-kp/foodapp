@@ -50,7 +50,6 @@
 				<span class="login100-form-title p-b-37">
 					Sign In
 				</span>
-				{{ form|crispy }}
 				<div class="container-login100-form-btn">
 					<button class="login100-form-btn">
 						Sign In
@@ -74,7 +73,7 @@
 				</div>
 
 				<div class="text-center">
-					<a href="#" class="txt2 hov1">
+					<a href="{% url 'signup' %}" class="txt2 hov1">
 						Sign Up
 					</a>
 				</div>
