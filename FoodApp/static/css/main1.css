@@ -162,37 +162,36 @@ iframe {
   background-size: cover;
   background-position: center;
   position: relative;
-  z-index: 1;
+  /* z-index: 1; */
 }
 
-.container-login100::before {
-  content: "";
-  display: block;
-  position: absolute;
-  z-index: -1;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  background: rgba(93,84,240,0.5);
-  background: -webkit-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: -o-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: -moz-linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  background: linear-gradient(left, rgba(0,168,255,0.5), rgba(185,0,255,0.5));
-  pointer-events: none;
-}
 
 .wrap-login100 {
   width: 390px;
   background: #fff;
   border-radius: 10px;
   overflow: hidden;
-
-  box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
-  -webkit-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
-  -o-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
-  -ms-box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1);
+  
+}
+.fm {
+    display: block;
+    width: 100%;
+    height: 43px;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    background-color:rgb(255, 255, 255) ; 
+    padding: 0.375rem 0.75rem;
+    border: 2px solid #0f0f0f;
+    
+   
+}
+.fm:focus{
+  outline: 2px solid rgb(10, 122, 221);
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 
@@ -208,8 +207,10 @@ iframe {
   font-family: SourceSansPro-Bold;
   font-size: 30px;
   color: #4b2354;
-  line-height: 1.2;
+  line-height: 2.0;
   text-align: center;
+  padding-bottom: 14px;
+
 }
 
 /*------------------------------------------------------------------
