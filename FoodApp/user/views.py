@@ -2,6 +2,8 @@ from django.shortcuts import render
 from django.views.generic import View
 from django.http import JsonResponse
 from django.contrib.auth.models import User
+from django.utils.decorators import method_decorator
+from django.views.decorators.csrf import csrf_exempt
 import json
 
 class Index(View):
@@ -14,6 +16,7 @@ class Index(View):
         pass
 
 
+@method_decorator(csrf_exempt, name='dispatch')
 class SignUp(View):
 
     template_name = 'user/signup.html'

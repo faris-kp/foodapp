@@ -40,16 +40,17 @@
 					  name="username"
 					  placeholder="username"
 					  id="usernameField"
-					  class="fm"
+					  class="fm-valid"
 					/>
 				  </div>
+				  <span class="has-error  image_error" ></span>
 				  <div class="form-group ">
 					<input
 					  type="email"
 					  name="email"
 					  placeholder="email"
 					  id="emailField"
-					  class="fm"
+					  class="fm-valid"
 					/>
 				  </div>
             	<div class="form-group ">
@@ -58,7 +59,7 @@
 						  name="password1"
 						  placeholder="password"
 						  id="passwordField1"
-						  class="fm"
+						  class="fm-valid"
 						/>
 				</div>
 					<div class="form-group ">
@@ -67,7 +68,7 @@
 						  name="password2"
 						  placeholder="repeat password"
 						  id="passwordField2"
-						  class="fm"
+						  class="fm-valid"
 						/>
 					</div>
                
@@ -93,6 +94,7 @@
 	
 
 	<div id="dropDownSelect1"></div>
+	<script src="{% static 'js/signup.js' %}"></script>
 	
 <!--===============================================================================================-->
 	<script src="{% static 'vendor/jquery/jquery-3.2.1.min.js' %}"></script>
