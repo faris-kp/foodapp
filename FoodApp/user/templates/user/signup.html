@@ -8,6 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/main1.css' %}">
 	<link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
 
 
@@ -38,7 +39,7 @@
 					<input
 					  type="text"
 					  name="username"
-					  placeholder="username"
+					  placeholder="name"
 					  id="usernameField"
 					  class="fm-valid"
 					/>
@@ -56,26 +57,18 @@
 				  </div>
 				  <span class="has-error  email_error" ></span>
 				  <p class="text-sm text-success emailSuccessOutput"></p>
-            	<div class="form-group ">
+            	<div class="form-group  ">
 						<input
 						  type="password"
 						  name="password1"
 						  placeholder="password"
-						  id="passwordField1"
+						  id="passwordField"
 						  class="fm-valid"
 						/>
-
-						
-				</div>
-					<div class="form-group ">
-						<input
-						  type="password"
-						  name="password2"
-						  placeholder="repeat password"
-						  id="passwordField2"
-						  class="fm-valid"
-						/>
+						<div class="eyeicon">
+						<i class="fa fa-eye-slash" id="togglePassword"></i>
 					</div>
+				</div>
                
 
                  

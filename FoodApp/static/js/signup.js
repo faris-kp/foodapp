@@ -2,8 +2,20 @@ const usernameField=document.querySelector("#usernameField");
 const emailField = document.querySelector("#emailField");
 const usernameSuccessOutput= document.querySelector(".usernameSuccessOutput")
 const emailSuccessOutput = document.querySelector(".emailSuccessOutput")
+const togglePassword = document.querySelector("#togglePassword");
+const password = document.querySelector("#passwordField");
 
-
+togglePassword.addEventListener("click", function () {
+    const type = password.getAttribute("type") === "password" ? "text" : "password";
+    password.setAttribute("type", type);
+    togglePassword.classList.toggle("fa-eye")
+    this.classList.r
+    // this.classList.toggle("fa-eye");
+});
+const form = document.querySelector("form");
+        form.addEventListener('submit', function (e) {
+            e.preventDefault();
+        });
 emailField.addEventListener("keyup", (e) =>{
     console.log("enter emailfieled")
     const emailVal = e.target.value;

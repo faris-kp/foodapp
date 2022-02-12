@@ -51,6 +51,12 @@ a {
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
+.eyeicon {
+  margin-left: 324px;
+  position: absolute;
+  margin-top: -34px;
+  cursor: pointer;
+}
 
 a:focus {
 	outline: none !important;
